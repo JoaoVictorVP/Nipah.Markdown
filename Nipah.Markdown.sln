@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33417.168
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nipah.Markdown", "Nipah.Markdown\Nipah.Markdown.csproj", "{C05AB0A3-CEF0-432D-BA49-4D602191F751}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nipah.Markdown.Tests", "Nipah.Markdown.Tests\Nipah.Markdown.Tests.csproj", "{F75F12EB-EC26-4043-BCBD-6092D984EDE8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C05AB0A3-CEF0-432D-BA49-4D602191F751}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C05AB0A3-CEF0-432D-BA49-4D602191F751}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C05AB0A3-CEF0-432D-BA49-4D602191F751}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C05AB0A3-CEF0-432D-BA49-4D602191F751}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F75F12EB-EC26-4043-BCBD-6092D984EDE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F75F12EB-EC26-4043-BCBD-6092D984EDE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F75F12EB-EC26-4043-BCBD-6092D984EDE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F75F12EB-EC26-4043-BCBD-6092D984EDE8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CA006513-A842-4D7E-AF94-3C6525E249A8}
+	EndGlobalSection
+EndGlobal
