@@ -4,7 +4,31 @@
     <TargetFramework>net7.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>Nipah Markdown</Title>
+    <Description>A library to make simple parses of markdown</Description>
+    <PackageIcon>icon.png</PackageIcon>
+    <PackageProjectUrl>https://github.com/JoaoVictorVP/Nipah.Markdown</PackageProjectUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/JoaoVictorVP/Nipah.Markdown</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>markdown;parser;text;tree;syntax;ast;nipah</PackageTags>
+    <PackageReleaseNotes>First Release Here!</PackageReleaseNotes>
+    <PackageVersion>0.1.0</PackageVersion>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <EnforceCodeStyleInBuild>True</EnforceCodeStyleInBuild>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\icon.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="NipahTokenizer" Version="3.1.6" />
